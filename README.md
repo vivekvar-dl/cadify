@@ -1,4 +1,4 @@
-# cad3dify
+# cadify
 
 Using GPT-4o, generate a 3D CAD model (STEP file) from a 2D CAD image.
 
@@ -7,8 +7,8 @@ Using GPT-4o, generate a 3D CAD model (STEP file) from a 2D CAD image.
 Installation.
 
 ```bash
-git clone git@github.com:neka-nat/cad3dify.git
-cd cad3dify
+git clone git@github.com:neka-nat/cadify.git
+cd cadify
 poetry install
 ```
 
