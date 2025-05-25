@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cad3dify"
+version = "0.1.0"
+description = "Generate 3D CAD models from 2D CAD images"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+python-dotenv = "^1.0.0"
+openai = "^1.0.0"
+numpy = "^1.24.0"
+Pillow = "^10.0.0"
+langchain = "^0.1.0"
+langchain-openai = "^0.0.2"
+cadquery = "^2.3.1"
+langchain-core = "^0.1.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
